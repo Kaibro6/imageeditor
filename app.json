@@ -1,0 +1,49 @@
+{
+    "name": "𝕀𝕄𝔸𝔾𝔼 𝔼𝔻𝕀𝕋𝕆ℝ ℙℝ𝕆",
+    "description": "A Bot that can Edit Images in various modes",
+    "logo": "https://telegra.ph/file/cc53c853d33b6a55a53a0.jpg",
+    "keywords": [
+        "Image",
+        "Editor",
+        "Telegram Bot",
+        "Kai_botoffical"
+    ],
+    "website": "https://t.me/SDBOTs_inifinity",
+    "repository": "https://github.com/kaibro6/IMAGE-EDITOR",
+    "success_url": "",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "6168460071:AAH83Rx6GnUZEwtan-iwvQeW9oToD2G8rZc",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "d52c7824d0e66903a0724b800a16ce2c",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "22923523",
+            "value": ""
+        },
+        "RemoveBG_API": {
+            "description": "Fng96va13uCZoXNLwNL4Vtfa",
+            "value": "",
+            "required": false
+        },
+        "WEBHOOK": {
+            "description": "Set this Value to 'ANYTHING'. Don't Change it",
+            "value": "ANYTHING"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
